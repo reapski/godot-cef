@@ -6,9 +6,9 @@
 rust = { version = "nightly", components = "rustfmt,clippy" }
 node = "24.16.0"
 pnpm = "11.3.0"
-"cargo:export-cef-dir" = "148.4.0+148.0.10"
+"cargo:export-cef-dir" = "149.3.0+149.0.6"
 
 [env]
 # Keep this in sync with the resolved cef / cef-dll-sys version in Cargo.lock,
 # using the CEF runtime build version after the '+'.
-CEF_VERSION = "148.0.10"
+CEF_VERSION = "149.0.6"
